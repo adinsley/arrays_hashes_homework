@@ -77,20 +77,34 @@ ACCOUNTS = [
     #        return average
     # end  
 #Problem 7_______________________________
-def business_total_cash_in_bank
-  total_business_amount = 0
-    for account in ACCOUNTS
-      if account[:type] == "business"
-      total_business_amount = total_business_amount + account[:amount]
-    end
-    end
-    total_business_amount
-  end
+# def business_total_cash_in_bank
+#   total_business_amount = 0
+#     for account in ACCOUNTS
+#       if account[:type] == "business"
+#       total_business_amount = total_business_amount + account[:amount]
+#     end
+#     end
+#     total_business_amount
+#   end
 
 
 #Problem 8____________________________________]
 
- 
+ # def largest_total
+  # rich_man = ACCOUNTS.max_by{|account| account[:amount]}
+  # rich_man[:holder_name]
+
+  #    # select{|account| account[:type] == "personal"}
+  #    #What to just return the name
+  # end   
+
+#Problem 9_______________________________________
+
+  # def largest_personal
+    #   rich_personal = ACCOUNTS.select{|account| account[:type] == "personal"}.max_by{|account| account[:amount]}
+    #   rich_personal[:holder_name]
+  #  end
+
 
 
 

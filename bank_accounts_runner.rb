@@ -33,9 +33,9 @@ require_relative('./bank_accounts_functions')
 
 ###total cash in business accounts
 
-business_total_cash = business_total_cash_in_bank
-puts "#{business_total_cash}"
-puts "\n"
+# business_total_cash = business_total_cash_in_bank
+# puts "#{business_total_cash}"
+# puts "\n"
 
 ###holder of largest bank account
 
@@ -44,6 +44,11 @@ puts "\n"
  # puts "\n"
 
 ###holder of largest personal account
+
+holder_of_largest_personal = largest_personal
+ puts "#{holder_of_largest_personal}"
+ puts "\n"
+
 
 ###any other functionality you want to add.
 
